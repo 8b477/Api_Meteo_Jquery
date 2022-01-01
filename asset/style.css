@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS",sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    height: 100vh;
+    width: 100vw;
+    background-color: cadetblue;
+}
+
+h1{
+    text-align: center;
+}
+
+#wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 200px;
+    margin: 10% auto 0;
+}
+
+#city, #deg, #deg_max, #deg_mini, #sky, #humidity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    width: 33%;
+    height: 50%;
+    font-size: 2rem;
+}
+#city{
+    background-color: #b66144;
+}
+#deg{
+    background-color: #7da123;
+}
+#deg_max{
+    background-color: #38629a;
+}
+#deg_mini{
+    background-color: burlywood;
+}
+#sky{
+    background-color: blueviolet;
+}
+#humidity{
+    padding-left: 3.5%;
+    background-color: orange;
+}
+
+#form{
+    width: 12%;
+    margin: 2% auto 0;
+    border-radius: 12px;
+}
+
+input{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+button{
+    width: 80%;
+    border-radius: 12px;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+#img{
+    height: 120px;
+    width: 130px;
+    margin: auto;
+}
+i{
+    font-size: 2.5rem;
+    z-index: 9999;
+}
